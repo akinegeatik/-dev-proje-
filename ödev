@@ -1,0 +1,7 @@
+from random import choice
+sifre=''
+karakter=[1,2,3,4,'a','b','c','d']
+
+for i in range(16):
+    sifre += str(choice(karakter))
+print(sifre)
